@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": [
+      "ES2019",
+      "ES2020.BigInt",
+      "ES2020.Promise",
+      "ES2020.String",
+      "ES2020.Symbol.WellKnown"
+    ],
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "outDir": "../../build",
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "rootDir": "../../",
+    "baseUrl": "../../"
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
